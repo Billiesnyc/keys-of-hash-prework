@@ -4,6 +4,7 @@ class Hash
    self.each do |key, value|
      if arguments.include?(value)
        array.push(key)
+     end
    end
   end
 end
