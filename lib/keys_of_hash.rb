@@ -3,7 +3,7 @@ class Hash
    counter = []
    self.each do |key, value|
      if arguments.include?(value)
-       counter << key
+       counter << key.to_s
      end
    end
   end
