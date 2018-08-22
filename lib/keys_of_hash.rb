@@ -6,6 +6,7 @@ class Hash
        counter.push(key)
      end
    end
+   counter
   end
  
 end
