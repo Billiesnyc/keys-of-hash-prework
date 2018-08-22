@@ -1,11 +1,11 @@
 class Hash
   def keys_of(*arguments)
-   array = []
+   array_holder = []
    self.each do |key, value|
      if arguments.include?(value)
-       array.push(key)
+       array_holder.push(key)
      end
    end
   end
-  array
+  array_holder
 end
